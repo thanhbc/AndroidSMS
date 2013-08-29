@@ -9,8 +9,8 @@
     tools:context=".MainActivity" >
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" >
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
 
         <EditText
             android:id="@+id/edtMessage"
@@ -21,7 +21,6 @@
 
             <requestFocus />
         </EditText>
-
         <Button
             android:id="@+id/btnSend"
             android:layout_width="wrap_content"
@@ -30,7 +29,7 @@
             android:layout_alignParentTop="true"
             android:layout_weight="1"
             android:text="@string/send" />
-
+       
     </RelativeLayout>
-
+    
 </LinearLayout>
